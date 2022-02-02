@@ -1,0 +1,19 @@
+.menu{
+    background-color: black;
+    color:white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.menu a[class='active']{
+    text-decoration: underline;
+    color: blue;
+}
