@@ -16,7 +16,8 @@ const UsersPage = () => {
     return (
         <div className={css.allUsers}>
             <div className={css.users}>
-                {users.map(user => <User key={user.id} user={user}/>)}</div>
+                {users.map(user => <User key={user.id} user={user}/>)}
+            </div>
             <Outlet/>
         </div>
     );
