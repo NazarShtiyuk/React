@@ -1,0 +1,12 @@
+.content {
+    display: flex;
+}
+
+.users {
+    width: 50%;
+    border-right: 1px solid black;
+}
+
+.albums {
+    width: 50%;
+}
