@@ -10,7 +10,7 @@ const Form = ({dispatch}) => {
         e.target.reset();
     }
 
-    const sendCat = (e) => {
+    const sendCat = () => {
         dispatch({type: 'addCat', payload: {cat: catInput.current.value}})
     }
     const sendDog = () => {
