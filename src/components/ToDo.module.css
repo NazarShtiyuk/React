@@ -1,0 +1,8 @@
+.textDecoration {
+    text-decoration: line-through;
+}
+.tasks {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
